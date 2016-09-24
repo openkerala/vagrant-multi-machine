@@ -1,4 +1,4 @@
-# Project Title
+# Vagrant with Virtualbox and Private IPs
 
 Setup multiple machines with vagrant and virtualbox. Also capable of assigning private IP addresses.
 
