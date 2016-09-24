@@ -1,8 +1,6 @@
 Vagrant.configure("2") do |config|
 
   config.vm.define "ubuntu_host1" do |ubuntu_host1|
-    config.ssh.username = "ubuntu"
-    config.ssh.password = "ubuntu"
     ubuntu_host1.vm.box = "ubuntu/xenial64"
     ubuntu_host1.vm.hostname = 'ubuntu-host1'
     ubuntu_host1.vm.box_url = "ubuntu/xenial64"
@@ -17,8 +15,6 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.define "centos_host1" do |centos_host1|
-    config.ssh.username = "centos"
-    config.ssh.password = "centos"
     centos_host1.vm.box = "centos/7"
     centos_host1.vm.hostname = 'centos-host1'
     centos_host1.vm.box_url = "centos/7"
