@@ -12,7 +12,7 @@ Trying this on ubuntu Xenial 16.04, Virtualbox (came with default repository) an
 
 ```
 sudo apt-get install virtualbox vde2 virtualbox-guest-additions-iso
-sudo dpkg -i vagrant_1.8.4_x86_64.deb
+sudo dpkg -i https://releases.hashicorp.com/vagrant/1.8.4/vagrant_1.8.4_i686.deb
 vagrant box add ubuntu/xenial64
 vagrant box add centos/7
 ```
